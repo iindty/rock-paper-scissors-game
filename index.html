@@ -3,10 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Rock Paper Scissors Game</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <div id="container">
+        <div id="content">
+            <h1>Rock Paper Scissors Game</h1>
+            <p id="round">Round :<span id="count-round"></span></p>
+            <div id="score">
+                <p class="" id="score-Player">Player : <span id="score-Py">0</span></p>
+                <p id="score-Computer">Computer : <span id="score-Cm">0</span></p>
+            </div>
+            <div id="button-Scetion">
+                <button id="button"><img id="button-Rock" src="https://static.thenounproject.com/png/477918-200.png" alt=""></button>
+                <button id="button"><img id="button-Paper" src="https://static.thenounproject.com/png/477922-200.png" alt=""></button>
+                <button id="button"><img id="button-Scissors" src="https://static.thenounproject.com/png/477919-200.png" alt=""></button>
+            </div>
+            <div id="text-Section">
+                <p id="choose-Player">You choose <span id="choose-Py"></span></p>
+                <p id="choose-Computer">Computer choose <span id="choose-Cm"></span></p>
+                <div id="status">
+                    <p id="statusFinal">Let's choose</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>

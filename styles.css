@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Jersey 10", sans-serif;
+    color: #212121;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #fde6f3;
+}
+
+#content {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    border-radius: 2rem;
+    background-color: rgb(181, 218, 247);
+    border: 1px solid #212121;
+}
+
+h1 {
+    text-align: center;
+    font-size: 4rem;
+}
+
+#round, #count-round {
+    text-align: center;
+    font-size: 2rem;
+    color: #212121;
+}
+
+#score {
+    margin: 2rem 0;
+}
+
+#score p {
+    display: flex;
+    justify-content: right;
+    font-size: 1.5rem;
+}
+
+#button-Scetion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    background-color: #ffffff;
+    border-radius: 50%;
+    padding: 1rem;
+    border: 1px solid #212121;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+button:hover {
+    background-color: #fdfbe6;
+    transition: 0.4s;
+}
+
+img {
+    width: 150px;
+}
+
+#text-Section {
+    margin: 2rem 0 0 0;
+}
+
+#text-Section p {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+#status {
+    font-size: 3rem;
+    text-align: center;
+}
+
